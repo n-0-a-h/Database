@@ -5,7 +5,7 @@ import pprint
 # -------------------------
 # Database connection
 # -------------------------
-client = MongoClient("mongodb+srv://fake_user:user1@aphiwenoahcluster0.zq4hdcq.mongodb.net/?retryWrites=true&w=majority&appName=aphiwenoahcluster0")  # adjust if using Atlas
+client = MongoClient("PLEASE ENTER THE LINK ")  # adjust if using Atlas
 db = client["university_db"]      # replace with your chosen DB name
 
 collection = db["students"]    # example collection
